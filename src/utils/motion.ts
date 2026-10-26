@@ -4,7 +4,7 @@ import { type Variants } from 'framer-motion';
 // Each element animates in under 300ms; stagger is handled via the `custom` index.
 export const fadeInUp: Variants = {
   hidden: { opacity: 0, y: 16 },
-  visible: (i: number = 0) => ({
+  visible: (i = 0) => ({
     opacity: 1,
     y: 0,
     transition: {
